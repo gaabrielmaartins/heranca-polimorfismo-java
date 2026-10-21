@@ -1,0 +1,16 @@
+package service;
+
+import model.Funcionario;
+
+public class ControleDeBonificacoes {
+
+    private double totalDeBonificacoes = 0;
+    
+    public void registra(Funcionario f){
+        f.getBonificacao();
+    }
+    
+    public double getTotalDeBonificacoes(){
+        return this.totalDeBonificacoes;
+    }
+}
